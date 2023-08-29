@@ -1,0 +1,62 @@
+pool: norbi-pool
+
+jobs:
+  - job:
+    displayName: "job1"
+    steps:
+    - task: Bash@3
+      displayName: 'Wait a little'
+      inputs:
+          targetType: 'inline'
+          script: |
+            sleep 69s
+
+  - job:
+    displayName: "job2"
+    steps:
+    - task: Bash@3
+      displayName: 'Wait a little'
+      inputs:
+          targetType: 'inline'
+          script: |
+            sleep 69s
+            
+  - job:
+    displayName: "job3"
+    steps:
+    - task: Bash@3
+      displayName: 'Wait a little'
+      inputs:
+          targetType: 'inline'
+          script: |
+            sleep 69s
+  
+  - job:
+    displayName: "job4"
+    steps:
+    - task: Bash@3
+      displayName: 'Wait a little'
+      inputs:
+          targetType: 'inline'
+          script: |
+            sleep 69s
+
+  - job:
+    displayName: "job5"
+    steps:
+    - task: Bash@3
+      displayName: 'Wait a little'
+      inputs:
+          targetType: 'inline'
+          script: |
+            sleep 69s
+            
+  - job:
+    displayName: "job6"
+    steps:
+    - task: Bash@3
+      displayName: 'Wait a little'
+      inputs:
+          targetType: 'inline'
+          script: |
+            sleep 69s
